@@ -1,13 +1,14 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Button } from '../.'
+import { Button, Card } from '../.'
 
 const App = () => {
   return (
-    <div>
+    <Card>
+      <h1>Example of this!</h1>
       <Button />
-    </div>
+    </Card>
   );
 };
 

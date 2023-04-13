@@ -6,3 +6,4 @@ export const Thing = () => {
 };
 
 export * from './components/Button'
+export * from './components/Card'
